@@ -1,0 +1,53 @@
+@import "tailwindcss";
+/* global.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
+  margin:0;
+  padding:0;
+} */
+
+:root {
+  --primary-color: #007bff; /* Example primary color */
+  --secondary-color: #6c757d; /* Example secondary color */
+  --font-base: "Inter", sans-serif; /* Example base font family */
+  --color:#666666;
+}
+.container{
+    width: 95%;
+    margin:0 auto;
+    color:var(--color);
+    
+}
+.top-strip{
+    min-width: 100%;
+    
+}
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-size: 0.9rem;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.border-color{
+    border-color:#e5e5e5;
+}
+
+.link{
+  text-decoration: none !important;
+  color:#666666 !important;
+  cursor: pointer !important;
+}
+
+.link:hover{
+  color:rgb(230, 56, 56) !important;
+}
+.bg{
+  background-color: #ff5252 !important;
+}

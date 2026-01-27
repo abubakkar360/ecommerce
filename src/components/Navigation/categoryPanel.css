@@ -1,0 +1,31 @@
+.scroll ul li:hover > .wrapper{
+    visibility:visible;
+}
+
+.wrapper{
+    background-color: antiquewhite;
+    padding: 20px;
+    visibility: hidden;
+}
+
+
+.wrapper ul {
+    /* background-color: blueviolet; */
+    
+    
+}
+ .first ul li:first-child {
+    
+    
+    font-weight: bold;
+    color: black;
+    
+}
+
+
+.wrapper ul li{
+        list-style: none;
+        text-transform: capitalize;
+        padding: 3px;
+        /* border: 1px solid black; */
+    }

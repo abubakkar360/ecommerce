@@ -1,0 +1,8 @@
+.col_2 ul li Button{
+    color: rgb(0,0,0,0.7) !important;
+    text-transform: uppercase;
+}
+.col_2 ul li Button:hover{
+    color: #070707 !important;
+    background-color: none!important
+}
