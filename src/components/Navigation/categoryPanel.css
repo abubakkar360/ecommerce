@@ -1,5 +1,7 @@
 .scroll ul li:hover > .wrapper{
     visibility:visible;
+    transition: all;
+    transition-duration: 5sec;
 }
 
 .wrapper{
