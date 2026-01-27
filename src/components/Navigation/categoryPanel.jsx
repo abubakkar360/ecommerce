@@ -8,11 +8,11 @@ import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom'
 import Tooltip from '@mui/material/Tooltip'; 
 import image1 from '../../assets/img/image.png'
-import image2 from '../../assets/img/Akashi Wooden Sofa Set.jpg'
-import image3 from '../../assets/img/Wooden-cabinet.jpg'
+import image2 from '../../assets/img/AkashiWoodenSofaSet.jpg'
+import image3 from '../../assets/img/Wooden-Cabinet.jpg'
 import image4 from '../../assets/img/warddrobe-furniture-1.jpg'
 import image5 from '../../assets/img/waredrobe.jpg'
-import image6 from '../../assets/img/Wooden showcase.jpg'
+import image6 from '../../assets/img/wooden-showcase.jpg'
 
 
 import { IoMdClose } from "react-icons/io";
