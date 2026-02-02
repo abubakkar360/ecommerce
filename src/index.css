@@ -16,6 +16,12 @@
   --font-base: "Inter", sans-serif; /* Example base font family */
   --color:#666666;
 }
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
 .container{
     width: 95%;
     margin:0 auto;

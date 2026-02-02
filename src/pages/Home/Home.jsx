@@ -1,9 +1,9 @@
 import React from 'react'
-
+import HomeSlider from '../../components/HomeSlider'
 function Home() {
   return (
     <>
-      <h3>This is home page</h3>
+      <HomeSlider/>
     </>
   )
 }

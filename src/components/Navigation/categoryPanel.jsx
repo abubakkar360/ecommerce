@@ -64,10 +64,10 @@ import { Backdrop } from '@mui/material';
       <ul className='w-full flex-col justify-center items-center'>
         <li className=' !px-4  '> 
           
-           <div className='flex justify-between items-center border-b-1 border-[#e5e5e5]'>
+           <div className='flex justify-between items-center border-b-1 border-[#e5e5e5] cursor-pointer '  >
             
           <Button disableRipple sx={{backgroundColor:'transparent','&:hover': {backgroundColor:'transparent'}}} className='w-full !py-3 !px-0 !justify-start !capitalize !text-[#373737] '> Our store 
-          </Button> <FaRegSquarePlus /> 
+          </Button> < FaRegSquarePlus /> 
            </div> 
           
           <div className="absolute top-14 left-full first wrapper grid grid-cols-3 gap-2 min-w-[500px] !z-50 rounded ">
@@ -121,7 +121,7 @@ import { Backdrop } from '@mui/material';
           </Button> </li>
         
         <li className='relative !px-4 '>
-          <div className='flex justify-between items-center border-b-1 border-[#e5e5e5]'>
+          <div className='flex justify-between items-center border-b-1 border-[#e5e5e5] cursor-pointer'>
           <Button disableRipple sx={{backgroundColor:'transparent','&:hover': {backgroundColor:'transparent'}}} className='w-full !py-3 !px-0 !justify-start !capitalize !text-[#373737] '> Furniture 
           </Button> <FaRegSquarePlus /> 
             </div> 
@@ -215,7 +215,7 @@ import { Backdrop } from '@mui/material';
           </Button> </li>
         
         <li className='relative !px-4 '>
-          <div className='flex justify-between items-center border-b-1 border-[#e5e5e5]'>
+          <div className='flex justify-between items-center border-b-1 border-[#e5e5e5] cursor-pointer'>
           <Button disableRipple sx={{backgroundColor:'transparent','&:hover': {backgroundColor:'transparent'}}} className='w-full !py-3 !px-0 !justify-start !capitalize !text-[#373737] '> Books and Music 
           </Button> <FaRegSquarePlus /> 
           </div> 

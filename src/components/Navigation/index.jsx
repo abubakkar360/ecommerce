@@ -22,7 +22,7 @@ const Navigation = () => {
     
       <nav className='py-2'>
         <div className="container flex  items-center gap-5">
-            <div className="col_1 w-[20%]  ">
+            <div className="col_1 w-[20%] border-r-1 border-[#e5e5e5] ">
                 <Button className='!text-black gap-2 flex justify-between w-full' onClick={openCatPanel}>
                         <RiMenu2Fill className='text-[1rem]'/>
                         shop by categories
